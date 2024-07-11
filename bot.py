@@ -2,7 +2,6 @@ import logging
 import os
 import time
 from datetime import datetime, timedelta
-
 import requests
 import schedule
 from dotenv import load_dotenv
@@ -62,11 +61,7 @@ async def create_poll(context: CallbackContext):
         await context.bot.send_message(chat_id=GROUP_CHAT_ID, text="Error fetching weather data.")
         return
 
-    options = []
-    for hour in range(7, 12):
-        temp, rain = get_weather(hour)
-        options.append(f"{hour}:00AM 🌡️ {temp}°C ☔ {rain}%")
-    options.extend(["+1 (Coming with someone) 👫", "Beer only 🍺", "Pass ❌"])
+    options = await poll_options()
 
     await context.bot.send_poll(
         chat_id=GROUP_CHAT_ID,
@@ -75,6 +70,18 @@ async def create_poll(context: CallbackContext):
         is_anonymous=False,
         allows_multiple_answers=True
     )
+
+
+async def poll_options():
+    options = []
+    for hour in range(7, 12):
+        temp, rain = get_weather(hour)
+        if temp is None:
+            options.append(f"{hour}:00AM")
+        else:
+            options.append(f"{hour}:00AM 🌡️ {temp}°C ☔ {rain}%")
+    options.extend(["+1 (Coming with someone) 👫", "Beer only 🍺", "Pass ❌"])
+    return options
 
 
 async def start(update: Update, context: CallbackContext):
