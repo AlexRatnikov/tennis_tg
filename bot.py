@@ -7,6 +7,7 @@ import schedule
 from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext, Application
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 # Configure logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -113,6 +114,12 @@ def main():
     scheduler_thread.start()
 
     application.run_polling()
+
+    # Create a simple HTTP server
+    server_address = ('', int(os.environ.get('PORT', 8080)))
+    httpd = HTTPServer(server_address, BaseHTTPRequestHandler)
+    logger.info('Starting HTTP server on port %s', server_address[1])
+    httpd.serve_forever()
 
 
 if __name__ == '__main__':
