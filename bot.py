@@ -102,6 +102,14 @@ def schedule_polls(application):
         time.sleep(1)
 
 
+class HealthCheckHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b"OK")
+
+
 def main():
     application = Application.builder().token(BOT_TOKEN).build()
 
@@ -117,7 +125,7 @@ def main():
 
     # Create a simple HTTP server
     server_address = ('', int(os.environ.get('PORT', 8080)))
-    httpd = HTTPServer(server_address, BaseHTTPRequestHandler)
+    httpd = HTTPServer(server_address, HealthCheckHandler)
     logger.info('Starting HTTP server on port %s', server_address[1])
     httpd.serve_forever()
 
