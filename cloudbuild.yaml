@@ -51,9 +51,9 @@ on:
     branches: [ "master" ]
 
 env:
-  PROJECT_ID: tennisfriendassociationbot # TODO: update Google Cloud project id
-  SERVICE: tennis-tg # TODO: update Cloud Run service name
-  REGION: global # TODO: update Cloud Run service region
+  PROJECT_ID: tennisfriendassociationbot
+  SERVICE: tennis-tg
+  REGION: global
 
 jobs:
   deploy:
