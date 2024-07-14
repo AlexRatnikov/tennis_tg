@@ -3,6 +3,7 @@ FROM python:3.12
 
 # Set the working directory
 WORKDIR /app
+ENV HOST 0.0.0.0
 
 # Copy the current directory contents into the container at /app
 COPY . /app
