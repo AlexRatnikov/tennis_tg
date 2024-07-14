@@ -14,5 +14,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
+# Local run check commands:
+# docker build -t tennis_tg .
+# docker run -d -p 8080:8080 --name tennis-tg-container tennis_tg
+
 # Run app.py when the container launches
 CMD ["python", "bot.py"]

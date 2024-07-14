@@ -124,9 +124,12 @@ def main():
     application.run_polling()
 
     # Create a simple HTTP server
-    server_address = ('', int(os.environ.get('PORT', 8080)))
+    # Ensure the server listens on 0.0.0.0 and port 8080
+    host = '0.0.0.0'
+    port = int(os.environ.get('PORT', 8080))
+    server_address = (host, port)
     httpd = HTTPServer(server_address, HealthCheckHandler)
-    logger.info('Starting HTTP server on port %s', server_address[1])
+    logger.info('Starting HTTP server on %s:%s', host, port)
     httpd.serve_forever()
 
 
