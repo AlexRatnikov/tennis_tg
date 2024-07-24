@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e59b267-e728-4648-85a9-ae8c32b23fb5" name="Changes" comment="modified HTTP server within the bot">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tennis_tg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlexRatnikov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ba544592-8b1e-4e83-a5c3-bc4c646a7419" />
+        <option name="url" value="https://github.com/AlexRatnikov/tennis_tg.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2j2RpZHm4wUKYvWYyFtOgIZIzKk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.basehandler.executor": "Run",
+    "Python.bot.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e59b267-e728-4648-85a9-ae8c32b23fb5" name="Changes" comment="" />
+      <created>1720583369542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720583369542</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1720669641853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720669641853</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cloudbuild.yaml added">
+      <option name="closed" value="true" />
+      <created>1720678353940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720678353941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cloudbuild.yaml changed">
+      <option name="closed" value="true" />
+      <created>1720679866773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720679866773</updated>
+    </task>
+    <task id="LOCAL-00004" summary="OpenWeather error handler">
+      <option name="closed" value="true" />
+      <created>1720716871271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720716871271</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed todos from cloudbuild.yaml">
+      <option name="closed" value="true" />
+      <created>1720754459261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720754459261</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed cloudbuild.yaml to gcp-style">
+      <option name="closed" value="true" />
+      <created>1720755557851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720755557851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added CLOUD_LOGGING_ONLY">
+      <option name="closed" value="true" />
+      <created>1720756254732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720756254732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated cloudbuild.yaml">
+      <option name="closed" value="true" />
+      <created>1720757645532</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720757645532</updated>
+    </task>
+    <task id="LOCAL-00009" summary="corrected cloudbuild.yaml">
+      <option name="closed" value="true" />
+      <created>1720757820538</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720757820538</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pdate cloudbuild.yaml to correct syntax issues">
+      <option name="closed" value="true" />
+      <created>1720757950136</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720757950136</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added a simple HTTP server handle gcp error">
+      <option name="closed" value="true" />
+      <created>1720759225770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720759225770</updated>
+    </task>
+    <task id="LOCAL-00012" summary="github workflowls removed">
+      <option name="closed" value="true" />
+      <created>1720989302275</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720989302276</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added ENV HOST into Dockerfile">
+      <option name="closed" value="true" />
+      <created>1720992501594</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720992501594</updated>
+    </task>
+    <task id="LOCAL-00014" summary="modified HTTP server within the bot">
+      <option name="closed" value="true" />
+      <created>1720996944583</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720996944583</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="cloudbuild.yaml added" />
+    <MESSAGE value="cloudbuild.yaml changed" />
+    <MESSAGE value="OpenWeather error handler" />
+    <MESSAGE value="removed todos from cloudbuild.yaml" />
+    <MESSAGE value="changed cloudbuild.yaml to gcp-style" />
+    <MESSAGE value="added CLOUD_LOGGING_ONLY" />
+    <MESSAGE value="updated cloudbuild.yaml" />
+    <MESSAGE value="corrected cloudbuild.yaml" />
+    <MESSAGE value="pdate cloudbuild.yaml to correct syntax issues" />
+    <MESSAGE value="added a simple HTTP server handle gcp error" />
+    <MESSAGE value="github workflowls removed" />
+    <MESSAGE value="added ENV HOST into Dockerfile" />
+    <MESSAGE value="modified HTTP server within the bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified HTTP server within the bot" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="temp" language="Python" />
+        <watch expression="data['data'][0]['temp']" language="Python" />
+        <watch expression="WEATHER_API_URL" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

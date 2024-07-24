@@ -19,4 +19,4 @@ EXPOSE 8080
 # docker run -d -p 8080:8080 --name tennis-tg-container tennis_tg
 
 # Run app.py when the container launches
-CMD ["python", "bot.py"]
+CMD ["gunicorn", "bot:application", "--workers", "3", "--bind", "0.0.0.0:8080"]
