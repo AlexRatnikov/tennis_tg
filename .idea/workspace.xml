@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e59b267-e728-4648-85a9-ae8c32b23fb5" name="Changes" comment="changed the port back to 8080; trying us-west1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="8e59b267-e728-4648-85a9-ae8c32b23fb5" name="Changes" comment="added logs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721787802701</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added logs">
+      <option name="closed" value="true" />
+      <created>1721789335380</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721789335380</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added logs">
+      <option name="closed" value="true" />
+      <created>1721789559555</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721789559555</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -252,7 +265,8 @@
     <MESSAGE value="modified CMD in Dockerfile" />
     <MESSAGE value="trying another port" />
     <MESSAGE value="changed the port back to 8080; trying us-west1" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the port back to 8080; trying us-west1" />
+    <MESSAGE value="added logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logs" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
