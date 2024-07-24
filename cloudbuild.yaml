@@ -4,7 +4,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/tennisfriendassociationbot/tennis-tg']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['run', 'deploy', 'tennis-tg', '--image', 'gcr.io/tennisfriendassociationbot/tennis-tg', '--region', 'us-east1', '--platform', 'managed', '--allow-unauthenticated']
+  args: ['run', 'deploy', 'tennis-tg', '--image', 'gcr.io/tennisfriendassociationbot/tennis-tg', '--region', 'us-west1', '--platform', 'managed', '--allow-unauthenticated']
 images:
 - 'gcr.io/tennisfriendassociationbot/tennis-tg'
 options:
