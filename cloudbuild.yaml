@@ -8,4 +8,4 @@ steps:
 images:
 - 'gcr.io/tennisfriendassociationbot/tennis-tg'
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: CLOUD_LOGGING
